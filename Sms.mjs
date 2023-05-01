@@ -71,4 +71,4 @@ class Sms {
   }
 }
 const sms = new Sms(process.env.ESKIZ_LOGIN, process.env.ESKIZ_PASSWORD);
-sms.send('998900860011','salom')
+sms.send('998901234567','Salom dunyo')
