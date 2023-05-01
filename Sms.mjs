@@ -1,10 +1,6 @@
-import { error } from "console";
-import { config } from "dotenv";
 import fs from "fs";
 import fetch from "node-fetch";
 import { FormData } from "node-fetch";
-import path from "path";
-config()
 
 class Sms {
   #login;
