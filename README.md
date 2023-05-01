@@ -3,3 +3,4 @@ Ushbu lib ishlashi uchun siz token saqlash joyiga o'zgartirish kiritishingiz ker
 
 bundan foydalanish uchun siz quyidagi kutibxonalarni o'rnatgan bo'lishiz kerak 
 "node-fetch": "^3.3.1",
+Sms.mjs faylida foydalanish uchun example qoldirilgan 
