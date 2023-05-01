@@ -7,8 +7,8 @@ import path from "path";
 config()
 
 class Sms {
-  #login = process.env.ESKIZ_LOGIN;
-  #password = process.env.ESKIZ_PASSWORD;
+  #login;
+  #password;
   constructor ( login, password ) { 
     this.#login = login
     this.#password=password
@@ -70,5 +70,5 @@ class Sms {
      }
   }
 }
-const sms = new Sms(process.env.ESKIZ_LOGIN, process.env.ESKIZ_PASSWORD);
-sms.send('998901234567','Salom dunyo')
+const sms = new Sms("Sizning eskiz loginingiz", "Sizning eskiz parolingiz");
+sms.send('998901234567','salom dunyo')
