@@ -24,9 +24,9 @@ sms yuborish uchun quyidagi buyruqni bajaring
 
 eskiz uz dan shartnoma qilsangiz quyidagi email va kodlarni olasiz 
 
-parolni dashboardga kirganingizda 
+parolni dashboardga kirganingizda <br>
 <img src="https://github.com/idealprojectuz/eskiz-uz-nodejs/blob/main/rasm.png?raw=true" width="500"> 
-
+<br>
 <code>
   const sms = new Sms("test@eskiz.uz", "eskizpassword");
   sms.send("998901234567", "Hello Developer");
