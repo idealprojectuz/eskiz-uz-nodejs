@@ -16,21 +16,19 @@ boshqa fayllarda ham ishlatmoqchi bo'lsangiz
 Sms.js faylidagi 
 Sms classini export qiling
 
-<code>
-  module.export=Sms
-</code>
+<code>module.export=Sms</code>
 
 sms yuborish uchun quyidagi buyruqni bajaring 
-
+<code>
+  const sms = new Sms("test@eskiz.uz", "eskizpassword");
+  sms.send("998901234567", "Hello Developer");
+</code>
 eskiz uz dan shartnoma qilsangiz quyidagi email va kodlarni olasiz 
 
 parolni dashboardga kirganingizda <br>
 <img src="https://github.com/idealprojectuz/eskiz-uz-nodejs/blob/main/rasm.png?raw=true" width="500"> 
 <br>
-<code>
-  const sms = new Sms("test@eskiz.uz", "eskizpassword");
-  sms.send("998901234567", "Hello Developer");
-</code>
+
 
 
   
