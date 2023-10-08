@@ -31,6 +31,15 @@ parolni dashboardga kirganingizda <br>
 
 
 V2 
+<div>
+  <h3>Webhook nmaga ishlatilgan</h3>
+  <p>Webhook bu yerda eskiz saytidan xabar yuborilgan yoki yuborilmaganligini qaytarib beradi
+  buni uzingiz ko'rishingiz mumkin deploy qilmasdan ko'rish uchun tunnel servislardan foydalanishingiz mumkin
+  webhook post so'rov yuboradi yani siz bergan manzilga post so'rov yuboradi 
+    formdata ko'rinishida uni multer kutibxonasi bilan parse qilishingiz mumkin
+  </p>
+</div>
+
 <h3>
 bir nechta odamga xabar yuborish xususiyati qo'shildi 
 yani endi siz 
