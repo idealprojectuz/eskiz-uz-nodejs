@@ -31,10 +31,10 @@ parolni dashboardga kirganingizda <br>
 
 
 V2 
-<h2>
+<h3>
 bir nechta odamga xabar yuborish xususiyati qo'shildi 
 yani endi siz 
-  </h2>
+  </h3>
 <code>
   let arr = [
     {
