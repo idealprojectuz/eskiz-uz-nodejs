@@ -40,13 +40,17 @@ yani endi siz
       user_sms_id: 1,
       to: 998901234567,
       text: "this is test message"
-    },
-    ...YOURDATA
+    }
   ]
+  </code 
+
+<code>
   const sms = new Sms("test@eskiz.uz", "eskizpassword", 'webhookurl');
   const smsresponse = await sms.sendMultiple(arr, promotionId)
-  //promotionid ga istalgan son yozish mumkin bazaga row ni id sini yozish ni tafsiya qilaman tafsiya etiladi transaction dan foydalanish shunda xato bo'lsa bazaga yozmay ketiladi 
-    //xatoni qaytarishda express da shunday qilgan edim siz o'zingiz qaytarishingiz mumkin hohlaganingizdek bu yerda fetchMy bazaga query yozish uchun mo'ljallangan funksiya edi 
+</code>
+  promotionid ga istalgan son yozish mumkin bazaga row ni id sini yozish ni tafsiya qilaman tafsiya etiladi transaction dan foydalanish shunda xato bo'lsa bazaga yozmay ketiladi 
+    xatoni qaytarishda express da shunday qilgan edim siz o'zingiz qaytarishingiz mumkin hohlaganingizdek bu yerda fetchMy bazaga query yozish uchun mo'ljallangan funksiya edi 
+    <code>
    if (smsresponse?.error) {
     await fetchMy("ROLLBACK");
     res.status(smsresponse.status).json({
@@ -56,9 +60,9 @@ yani endi siz
     });
     return;
   }
+  </code>
   
 
-</code>
 
 
 
