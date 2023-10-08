@@ -43,16 +43,16 @@ yani endi siz
       text: "this is test message"
     }
   ]
-  </code 
-
-<code>
   const sms = new Sms("test@eskiz.uz", "eskizpassword", 'webhookurl');
   const smsresponse = await sms.sendMultiple(arr, promotionId)
 </code>
+<div>
 <h3>
   promotionid ga istalgan son yozish mumkin bazaga row ni id sini yozish ni tafsiya qilaman tafsiya etiladi transaction dan foydalanish shunda xato bo'lsa bazaga yozmay ketiladi 
     xatoni qaytarishda express da shunday qilgan edim siz o'zingiz qaytarishingiz mumkin hohlaganingizdek bu yerda fetchMy bazaga query yozish uchun mo'ljallangan funksiya edi 
   </h3>
+  </div>
+  <div>
     <code>
    if (smsresponse?.error) {
     await fetchMy("ROLLBACK");
@@ -64,7 +64,7 @@ yani endi siz
     return;
   }
   </code>
-  
+  </div>
 
 
 
